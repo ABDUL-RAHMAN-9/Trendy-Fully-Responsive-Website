@@ -121,3 +121,61 @@ nav .btn {
   display: none;
 }
 
+
+/* Hero seciton */
+.heropage {
+  background: url('img/heropage-img.png') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.btn-heropage {
+  border: 1px solid var(--brown-white);
+  color: var(--brown-white);
+  text-decoration: none;
+  font-size: 24px;
+  width: 280px;
+  height: 51px;
+  margin-top: 400px;
+}
+
+.btn-heropage:hover {
+  background-color: var(--brown-white);
+  color: var(--primary);
+  border: var(--primary) 1px solid;
+
+}
+
+.slogan {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+}
+
+.slogan-1 h4 {
+  font-size: 40px;
+  font-weight: 500;
+
+}
+
+.slogan-1 hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background-color: var(--brown-white);
+
+}
+
+.slogan-2 h1 {
+  font: italic 500 128px var(--accent-font);
+
+}
+
+.slogan-2 p {
+  font-size: 16px;
+  font-weight: 300;
+}
