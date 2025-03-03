@@ -278,42 +278,42 @@ nav .btn {
 }
 
 
-.about-box-headline{
+.about-box-headline {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.about-box-headline h6{
+.about-box-headline h6 {
   font-size: 16px;
   font-weight: 300;
   font-style: italic;
   text-align: center;
 }
 
-.about-box-headline p{
+.about-box-headline p {
   font-size: 24px;
   font-weight: 300;
   text-justify: inter-word;
   text-align: justify;
 }
 
-.about-box-headline p b{
+.about-box-headline p b {
   font-weight: 500;
 
 }
 
-.about-box-2{
+.about-box-2 {
   margin-top: 50px;
 }
 
 
 
-.about-box-2 img{
+.about-box-2 img {
   flex-grow: 1;
 }
 
-.about-box-1 .about-box-headline{
+.about-box-1 .about-box-headline {
   flex-basis: 602px;
 }
 
@@ -323,7 +323,7 @@ nav .btn {
   flex-basis: 761px;
 }
 
-.btn-long{
+.btn-long {
   width: 280px;
   font-size: 24px;
   height: 51px;
@@ -333,8 +333,76 @@ nav .btn {
 
 
 
-.btn-long:hover{
+.btn-long:hover {
   background-color: var(--brown-white);
   color: var(--primary);
+
+}
+
+/* project section */
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project h1 {
+  font-size: 96px;
+  font-family: var(--accent-font);
+  font-weight: 500;
+  font-style: italic;
+  margin: 50px 0px 24px 0px;
+
+}
+
+.project-container {
+  display: flex;
+  gap: 24px;
+
+}
+
+.project-box {
+  width: 312px;
+  height: 509px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.project-box h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+}
+
+.project-box button {
+  border: 1px solid white;
+  color: white;
+}
+
+.project-box button:hover {
+  background-color: var(--secondary);
+}
+
+.project-box-1 {
+  background-image: url('img/project-img/project-img-1.png');
+
+}
+
+.project-box-2 {
+  background-image: url('img/project-img/project-img-2.png');
+
+}
+
+.project-box-3 {
+  background-image: url('img/project-img/project-img-3.png');
+
+}
+
+.project-box-4 {
+  background-image: url('img/project-img/project-img-4.png');
 
 }
