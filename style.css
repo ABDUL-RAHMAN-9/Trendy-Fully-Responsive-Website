@@ -234,3 +234,107 @@ nav .btn {
   border-right: 1px solid var(--primary);
 
 }
+
+
+/* About section */
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 64px;
+  background-color: var(--brown-white);
+}
+
+.about-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+.about-title h1 {
+  font: italic 500 96px/1 var(--accent-font);
+}
+
+.about-title p {
+  font-size: 20px;
+  width: 268px;
+}
+
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.about-box {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+
+}
+
+
+.about-box-headline{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-box-headline h6{
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+.about-box-headline p{
+  font-size: 24px;
+  font-weight: 300;
+  text-justify: inter-word;
+  text-align: justify;
+}
+
+.about-box-headline p b{
+  font-weight: 500;
+
+}
+
+.about-box-2{
+  margin-top: 50px;
+}
+
+
+
+.about-box-2 img{
+  flex-grow: 1;
+}
+
+.about-box-1 .about-box-headline{
+  flex-basis: 602px;
+}
+
+
+
+.about-box-2 .about-box-headline {
+  flex-basis: 761px;
+}
+
+.btn-long{
+  width: 280px;
+  font-size: 24px;
+  height: 51px;
+  background-color: var(--primary);
+  color: var(--brown-white);
+}
+
+
+
+.btn-long:hover{
+  background-color: var(--brown-white);
+  color: var(--primary);
+
+}
