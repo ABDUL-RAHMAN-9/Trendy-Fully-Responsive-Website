@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: #5e5953;
+  --secondary: #504943;
+  --brown-white: #fcf9f5;
+  --accent-font: "Cormorant Garamond", serif;
+}
+
+
+body {
+  min-height: 100vh;
+
+}
+
+section {
+  min-width: 100%;
+  min-height: 100vh;
+  color: var(--primary);
+}
+
+nav {
+  z-index: 999;
+  position: fixed;
+  width: 90%;
+  margin-top: 40px;
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 34px;
+  border-bottom: 1px transparent;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--brown-white);
+  color: var(--brown-white);
+  left: 50%;
+  transform: translateX(-50%);
+
+
+}
+
+nav.sticky {
+  background: var(--brown-white);
+  margin-top: 0px;
+  width: 100%;
+  border-bottom: 1px var(--primary) solid;
+  padding: 15px 100px;
+
+}
+
+nav .brand {
+  color: var(--primary);
+  font-size: 40px;
+  font-weight: 500;
+  font-family: var(--accent-font);
+  margin-right: 150px;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+nav .brand:hover {
+  opacity: 0.8;
+
+}
+
+nav .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .menu a {
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 30px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+
+}
+
+nav .menu a:hover {
+  opacity: 0.7;
+}
+
+nav .btn {
+  color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-2 {
+  font-size: 16px;
+  width: 161px;
+  height: 43px;
+  display: grid;
+  place-items: center;
+  background: transparent;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-2:hover,
+.btn-2:active {
+  background-color: var(--primary);
+  color: var(--brown-white);
+}
+
+.btn-nav {
+  display: none;
+}
+
