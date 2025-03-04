@@ -406,3 +406,98 @@ nav .btn {
   background-image: url('img/project-img/project-img-4.png');
 
 }
+
+/* FAQ section */
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+
+}
+
+
+.FAQ h1 {
+  font-size: 48px;
+  font-family: var(--accent-font);
+  font-weight: 400;
+  margin: 50px 0px 0px 0px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+}
+
+.accordion-item hr {
+  border: 1px solid var(--primary);
+}
+
+
+.accordion-link {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1px var(--primary) solid;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+
+
+
+.accordion-link h3 {
+  font-weight: 500;
+  font-size: 24px;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.accordion-item:hover .accordion-link h3 {
+  transform: translateX(4px);
+  opacity: 0.8;
+}
+
+.accordion-link i {
+  color: var(--primary);
+  padding: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+
+.accordion-link ul {
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+  margin-left: 25px;
+
+}
+
+.accordion-link li {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.4);
+  padding-left: 5px;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--primary);
+  transition: max-height 650ms;
+
+}
+
+.answer p {
+  color: var(--brown-white);
+  font-size: 20px;
+  padding: 2rem;
+}
+
+
+.accordion-item:target .answer {
+  max-height: 20rem;
+}
