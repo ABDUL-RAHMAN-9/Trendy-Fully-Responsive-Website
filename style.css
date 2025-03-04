@@ -743,3 +743,85 @@ footer hr {
   text-justify: inter-word;
 
 }
+
+/* Contact page */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.contact h1 {
+  font-family: var(--accent-font);
+  font-size: 64px;
+  margin-top: 180px;
+
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 60px 50px 60px;
+  margin-bottom: 62px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 24px;
+}
+
+.input-info {
+  display: flex;
+}
+
+.input-info div {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 648px;
+}
+
+.input-info input,
+.input-info textarea {
+  width: 312px;
+  height: 62px;
+  background-color: #f0f0f0;
+  color: var(--primary);
+  font-size: 20px;
+  border: none;
+  border-radius: 12px;
+  padding: 24px;
+  outline: none;
+}
+
+.input-info textarea {
+  height: 140px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+}
+
+.btn-contact {
+  margin-top: 16px;
+  width: 280px;
+  height: 51px;
+  font-size: 24px;
+  border-radius: 12px;
+  background-color: var(--primary);
+  color: var(--brown-white);
+}
+
+.contact img {
+  width: 100%;
+}
