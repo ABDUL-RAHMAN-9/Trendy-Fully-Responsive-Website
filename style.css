@@ -149,6 +149,12 @@ nav .btn {
 
 }
 
+.heropage-headlines{
+  width: auto;
+  margin: 34px 60px;
+  color: white;
+}
+
 .slogan {
   display: flex;
   align-items: center;
