@@ -149,7 +149,7 @@ nav .btn {
 
 }
 
-.heropage-headlines{
+.heropage-headlines {
   width: auto;
   margin: 34px 60px;
   color: white;
@@ -1071,7 +1071,6 @@ footer hr {
   }
 }
 
-
 /* Large Phone */
 @media (max-width:426px) and (min-width:376px) {
   .links {
@@ -1081,6 +1080,8 @@ footer hr {
 
 /* Phones */
 @media (max-width:767px) and (min-width:0px) {
+
+  /* Navbar */
   nav {
     padding: 20px 20px;
     width: 100%;
@@ -1134,12 +1135,14 @@ footer hr {
     flex-basis: 127px;
   }
 
+  /* New arrivals */
+
   .new-arrivals {
     flex-direction: column;
   }
 
   .new-arrivals-box {
-    width: 100px;
+    width: 100%;
     border-bottom: 1px solid var(--primary);
   }
 
