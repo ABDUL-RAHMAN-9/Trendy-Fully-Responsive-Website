@@ -1064,3 +1064,259 @@ footer hr {
     width: 100%;
   }
 }
+
+
+/* Large Phone */
+@media (max-width:426px) and (min-width:376px) {
+  .links {
+    width: 130px;
+  }
+}
+
+/* Phones */
+@media (max-width:767px) and (min-width:0px) {
+  nav {
+    padding: 20px 20px;
+    width: 100%;
+  }
+
+  nav .brand {
+    margin-right: 20px 20px;
+
+  }
+
+  nav.sticky {
+    padding: 20px 20px;
+  }
+
+  nav .menu {
+    min-width: 300px;
+  }
+
+  /* Hero Page */
+  .heropage-headlines {
+    margin: 20px;
+  }
+
+  .slogan {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .slogan-1 h4 {
+    font-size: 16px;
+  }
+
+  .slogan-2 {
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: space-between;
+  }
+
+  .slogan.slogan-2>h1:first-child {
+    font-size: 36px;
+  }
+
+  .slogan-2 h1 {
+    font-size: 64px;
+    order: 3;
+  }
+
+  .slogan-2 p {
+    font-size: 10px;
+    flex-basis: 127px;
+  }
+
+  .new-arrivals {
+    flex-direction: column;
+  }
+
+  .new-arrivals-box {
+    width: 100px;
+    border-bottom: 1px solid var(--primary);
+  }
+
+  /* About section */
+  .about-title {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .about-title h1 {
+    font-size: 32px;
+  }
+
+  .about-title p {
+    font-size: 14px;
+  }
+
+  .about-box-headline {
+    gap: 16px;
+    margin-bottom: 0px;
+  }
+
+  .about-box-headline h6 {
+    font-size: 12px;
+  }
+
+  .about-box-headline p {
+    font-size: 16px;
+  }
+
+  .about-box {
+    gap: 10px;
+  }
+
+  .about-box img {
+    object-fit: cover;
+    width: 320px;
+    height: 230px;
+    margin: 12px 0px 12px 0px;
+  }
+
+  .about-box-2 {
+    margin-top: 20px;
+  }
+
+  .btn-long {
+    width: 192px;
+    height: 43px;
+    font-size: 16px;
+  }
+
+  /* Porject section */
+  .project h1 {
+    font-size: 32px;
+
+  }
+
+  .project-box {
+    width: 280px;
+  }
+
+  .FAQ {
+    padding: 20px;
+  }
+
+  .FAQ h1 {
+    font-size: 24px;
+  }
+
+  .accordion-title h3 {
+    font-size: 16px;
+  }
+
+  .answer p {
+    font-size: 14px;
+  }
+
+  /* Footer  */
+  .footer-headline {
+    flex-direction: column;
+  }
+
+  .footer-headline p {
+    text-align: center;
+    flex-basis: 0px;
+  }
+
+  .bottom-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-newsletter h4 {
+    font-size: 19px;
+    margin-bottom: 0px;
+  }
+
+  .link-container {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 0px;
+    justify-content: space-between;
+    flex-basis: 320px;
+  }
+
+  footer hr {
+    margin-top: 0px;
+  }
+
+  .socials {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .socials p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  /* Product page */
+  .product-title {
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+
+  .product-title h5 {
+    font-size: 14px;
+  }
+
+  .product-title p {
+    font-size: 14px;
+  }
+
+  .product-description p {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  /* Contact Page */
+  .contact h1 {
+    font-size: 32px;
+    margin-top: 100px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+
+  }
+
+  .contact-info p {
+    font-size: 16px;
+  }
+
+  .input-info p {
+    font-size: 16px;
+  }
+
+  .input-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .input-info div {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .input-info div input {
+    width: 100%;
+  }
+
+  .input-info textarea {
+    width: 100%;
+  }
+
+  .contact img {
+    height: 320px;
+    object-fit: cover;
+  }
+}
