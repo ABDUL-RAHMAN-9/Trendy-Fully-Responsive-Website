@@ -51,6 +51,7 @@ nav.sticky {
   background: var(--brown-white);
   margin-top: 0px;
   width: 100%;
+  max-width: 100%;
   border-bottom: 1px var(--primary) solid;
   padding: 15px 100px;
 
@@ -1328,4 +1329,46 @@ footer hr {
     height: 320px;
     object-fit: cover;
   }
+}
+
+
+
+/*  */
+/* sofa page */
+.sofa-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.sofa-title{
+  font-size: 2.5rem;
+  text-decoration:underline;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+
+}
+/* About sofa section */
+.sofa-img-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+
+  justify-content: center;
+}
+
+.sofa-box {
+  padding: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.sofa-box h2{
+  margin-top: 2rem;
+}
+
+.sofa-box h2:hover {
+  color: black;
+  transition: all 0.5s ease-in-out;
 }
