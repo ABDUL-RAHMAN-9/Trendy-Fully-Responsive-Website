@@ -58,6 +58,7 @@ sr.reveal(".footer-headline");
 sr.reveal(".footer-newsletter", { origin: "left" });
 sr.reveal(".footer-container", { origin: "right" });
 sr.reveal(".socials");
+sr.reveal(".link-container", { delay: 500 });
 
 // Product Page
 sr.reveal(".product-page img", { origin: "top" });
@@ -68,3 +69,8 @@ sr.reveal(".product-container", { delay: 1000 });
 sr.reveal(".contact h1");
 sr.reveal(".contact-container", { delay: 500 });
 sr.reveal(".contact img", { delay: 1000 });
+
+// sofa Page
+sr.reveal(".sofa-page img", { origin: "top" });
+sr.reveal(".sofa-title", { delay: 500 });
+sr.reveal(".sofa-img-container", { delay: 700 });
