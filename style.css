@@ -1310,7 +1310,7 @@ footer hr {
   .input-info {
     flex-direction: column;
     gap: 20px;
-  }
+  } 
 
   .input-info div {
     flex-direction: column;
@@ -1328,6 +1328,15 @@ footer hr {
   .contact img {
     height: 320px;
     object-fit: cover;
+  }
+  /* shop feature collection */
+  .sofa-title h2{
+    font-size: 34px;
+  }
+  .sofa-page img{
+    height: 320px;
+    object-fit: cover;
+    margin-top: 7rem;
   }
 }
 
@@ -1353,7 +1362,7 @@ footer hr {
 }
 
 /* About sofa section */
-.sofa-img-container {
+.sofa-img-container { 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
