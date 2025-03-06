@@ -1340,21 +1340,24 @@ footer hr {
   flex-direction: column;
 }
 
-.sofa-title{
+.sofa-title {
   font-size: 2.5rem;
-  text-decoration:underline;
   display: flex;
   justify-content: center;
   margin-top: 4rem;
+}
+
+.sofa-title h2 {
+  font-family: var(--accent-font);
 
 }
+
 /* About sofa section */
 .sofa-img-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 10px;
-
   justify-content: center;
 }
 
@@ -1364,7 +1367,7 @@ footer hr {
   text-decoration: underline;
 }
 
-.sofa-box h2{
+.sofa-box h2 {
   margin-top: 2rem;
 }
 
