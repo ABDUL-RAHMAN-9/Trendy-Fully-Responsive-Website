@@ -23,7 +23,6 @@ body {
 
 section {
   min-width: 100%;
-  min-height: 100vh;
   color: var(--primary);
 }
 
@@ -1310,7 +1309,7 @@ footer hr {
   .input-info {
     flex-direction: column;
     gap: 20px;
-  } 
+  }
 
   .input-info div {
     flex-direction: column;
@@ -1329,11 +1328,13 @@ footer hr {
     height: 320px;
     object-fit: cover;
   }
+
   /* shop feature collection */
-  .sofa-title h2{
+  .sofa-title h2 {
     font-size: 34px;
   }
-  .sofa-page img{
+
+  .sofa-page img {
     height: 320px;
     object-fit: cover;
     margin-top: 7rem;
@@ -1354,6 +1355,7 @@ footer hr {
   display: flex;
   justify-content: center;
   margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 .sofa-title h2 {
@@ -1362,7 +1364,7 @@ footer hr {
 }
 
 /* About sofa section */
-.sofa-img-container { 
+.sofa-img-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
