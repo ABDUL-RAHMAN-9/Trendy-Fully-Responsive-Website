@@ -49,23 +49,29 @@ To get started with this project, you will need:
 
 ## Project Structure
 
-```plaintext
+```
 trendy-terrace/
-├── index.html
-├── product.html
-├── contact.html
-├── style.css
-├── script.js
-├── img/
-│   ├── new-arrival-img/
+├── index.html             # Homepage
+├── product.html           # Product details page
+├── contact.html           # Contact page
+├── style.css              # Stylesheet for the website
+├── script.js              # JavaScript for interactivity
+├── img/                   # Directory for image assets
+│   ├── new-arrival-img/  
 │   │   ├── new-arrival-img-1.png
 │   │   ├── new-arrival-img-2.png
 │   │   └── new-arrival-img-3.png
-│   ├── about-img/
+│   ├── about-img/        
 │   │   ├── about-img-1.png
 │   │   └── about-img-2.png
-│   └── other-images/
+│   ├── Sofa/              
+│   │   ├── sofa-img-1.jpeg
+│   │   ├── sofa-img-2.jpeg
+│   │   ├── sofa-img-3.jpeg
+│   │   ├── sofa-img-4.jpeg
+│   └── other-images/      # Miscellaneous images
 └── README.md
+
 ```
 # Features
 Navigation Bar: A responsive navbar with links to various sections of the website.
