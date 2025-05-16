@@ -2,6 +2,7 @@
 
 Welcome to the **Trendy Terrace** project! This sleek and stylish website highlights the elegance and sophistication of our fictitious furniture and home decor brand. Below, you will find information on the project structure, technologies used, and how to set up and run the project.
 
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
@@ -10,6 +11,14 @@ Welcome to the **Trendy Terrace** project! This sleek and stylish website highli
 - [Features](#features)
 - [Credits](#credits)
 - [License](#license)
+
+
+## Live Preview
+
+Check out the live demo of [Trendy Terrace](https://abdul-rahman-9.github.io/Trendy-Fully-Responsive-Website/) here:
+
+[![Trendy Terrace Live Preview](https://img.shields.io/badge/Live%20Preview-Visit-blue?style=for-the-badge&logo=github)](https://abdul-rahman-9.github.io/Trendy-Fully-Responsive-Website/)
+
 
 ## Project Overview
 
@@ -74,22 +83,22 @@ trendy-terrace/
 
 ```
 # Features
-Navigation Bar: A responsive navbar with links to various sections of the website.
+- Navigation Bar: A responsive navbar with links to various sections of the website.
 
-Hero Section: A visually striking hero section with slogans and a call-to-action button.
+- Hero Section: A visually striking hero section with slogans and a call-to-action button.
 
-New Arrivals: A section showcasing the latest products with links to learn more.
+- New Arrivals: A section showcasing the latest products with links to learn more.
 
-About Us: Information about the brand's philosophy and commitment to timeless design.
+- About Us: Information about the brand's philosophy and commitment to timeless design.
 
-Projects: Highlights of various projects completed by the brand with links to learn more.
+- Projects: Highlights of various projects completed by the brand with links to learn more.
 
 # Credits
-Font Awesome for the icons.
+- Font Awesome for the icons.
 
-Scroll Reveal Library for scroll animations.
+- Scroll Reveal Library for scroll animations.
 
-Images used in the project are for demonstration purposes only and sourced from free image libraries.
+- Images used in the project are for demonstration purposes only and sourced from free image libraries.
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
